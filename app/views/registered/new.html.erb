@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Levar.me - Coming Soon</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <!-- Custom font from Google Web Fonts -->
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans:700,400&subset=cyrillic" rel="stylesheet">
+
+  <!-- Bootstrap stylesheets -->
+  <link href="assets/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/bootstrap-responsive.min.css" rel="stylesheet">
+
+  <!-- Template stylesheet -->
+  <link href="assets/sunrise.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+  <h1 class="site-heading">Levar.<span style="color: #91D8F7">me</span></h1>
+
+  <p class="description">We are building our awesome new app.<br>Submit your email to subscribe for news.</p>
+
+  <%= form_for(@registered, :url => {:action => 'create'}, :html => { :class => "subscribe-form form-inline", :id => "subscribe-form" }) do |e| %>
+      <%= e.text_field :email, :maxlength => 50, :placeholder => 'Email', :id => "subscribe-email", :class => "subscribe-email" %>
+      <div class="subscribe-submit-container">
+        <%= e.submit :class => "subscribe-submit btn btn-large btn-inverse", :id => "subscribe", :value => "SUBSCRIBE" %>
+      </div>
+  <% end %>
+
+  <!-- Countdown -->
+  <div id="countdown" class="countdown">
+    <div class="countdown-item">
+      <div class="countdown-number countdown-days"></div>
+      <div class="countdown-text">days</div>
+    </div>
+
+    <div class="countdown-item">
+      <div class="countdown-number countdown-hours"></div>
+      <div class="countdown-text">hours</div>
+    </div>
+
+    <div class="countdown-item">
+      <div class="countdown-number countdown-minutes"></div>
+      <div class="countdown-text">minutes</div>
+    </div>
+
+    <div class="countdown-item">
+      <div class="countdown-number countdown-seconds"></div>
+      <div class="countdown-text">seconds</div>
+    </div>
+  </div>
+  <!-- /Countdown -->
+</div>
+
+<!-- Scripts -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="/assets/jquery.countdown.js"></script>
+<script src="/assets/main.config.js"></script>
+<script src="/assets/sunrise.js"></script>
+</body>
+</html>
