@@ -12,5 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require jquery.countdown
+//= require main.config
+//= require sunrise
 //= require_tree .

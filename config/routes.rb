@@ -4,7 +4,7 @@ LevarmeLanding::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root to: 'registered#new'
-  resources :registered
+  match ':controller(/:action(/:id))(.:format)'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
