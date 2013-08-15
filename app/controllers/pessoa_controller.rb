@@ -20,4 +20,14 @@ class PessoaController < ApplicationController
     render :json => @pessoas
   end
 
+  def add_pessoas_chat
+
+
+  end
+
+  def list_chats
+    @pessoas_chat = PessoaChat.find_all_by_pessoa_id(params[:uid])
+    render :json => @pessoas_chat
+  end
+
 end
