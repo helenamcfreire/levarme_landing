@@ -2304,6 +2304,30 @@
       <column name="viewowner" sqlType="name" length="2147483647" precision="0" nullable="true" jdbcType="12"/>
       <column name="definition" sqlType="text" length="2147483647" precision="0" nullable="true" jdbcType="12"/>
     </table>
+    <table name="pessoa_chats" schema="public" catalog="levarme" type="TABLE">
+      <column name="pessoa_id" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="chat_id" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="pessoas" schema="public" catalog="levarme" type="TABLE">
+      <column name="id" sqlType="serial" length="10" precision="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgncGVzc29hc19pZF9zZXEnOjpyZWdjbGFzcyk="/>
+      <column name="uid" sqlType="varchar" length="255" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <column name="nome" sqlType="varchar" length="255" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <column name="created_at" sqlType="timestamp" length="29" precision="6" nullable="false" jdbcType="93"/>
+      <column name="updated_at" sqlType="timestamp" length="29" precision="6" nullable="false" jdbcType="93"/>
+      <primary-key name="pessoas_pkey" columns="id"/>
+    </table>
+    <table name="pessoas_id_seq" schema="public" catalog="levarme" type="SEQUENCE">
+      <column name="sequence_name" sqlType="name" length="2147483647" precision="0" nullable="false" jdbcType="12"/>
+      <column name="last_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="start_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="increment_by" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="max_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="min_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="cache_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="log_cnt" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="is_cycled" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
+      <column name="is_called" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
+    </table>
     <table name="registereds" schema="public" catalog="levarme" type="TABLE">
       <column name="id" sqlType="serial" length="10" precision="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgncmVnaXN0ZXJlZHNfaWRfc2VxJzo6cmVnY2xhc3Mp"/>
       <column name="email" sqlType="varchar" length="255" precision="0" nullable="false" jdbcType="12" def="Jyc="/>

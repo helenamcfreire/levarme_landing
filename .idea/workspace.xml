@@ -2,30 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b61ad7a8-1956-43ec-925a-e5a417939a4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130814172149_create_pessoa_chats.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/pessoa_chat.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/pessoa_chat_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/pessoa_chats.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/levarme_landing.iml" afterPath="$PROJECT_DIR$/.idea/levarme_landing.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="725399fb-5ecb-4880-b750-b9cca483b175" name="NAO_COMMITAR" comment="" />
     <ignored path="levarme_landing.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1376526096253" ignored="false" />
+    <file path="/Dummy.txt" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1376672671029" ignored="false" />
     <file path="/a.dummy" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1368378496421" ignored="false" />
     <file path="/registered_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1368380465382" ignored="false" />
     <file path="/application.css" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1368378764989" ignored="false" />
     <file path="/application.js" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1368378790978" ignored="false" />
     <file path="/pessoa.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1370807038696" ignored="false" />
-    <file path="/pessoa_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1376525613728" ignored="false" />
+    <file path="/pessoa_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1376676918930" ignored="false" />
     <file path="/20130609194146_create_pessoas.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1370807048270" ignored="false" />
     <file path="/pessoa_chat.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1376501278783" ignored="false" />
     <file path="/20130814172149_create_pessoa_chats.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1376501336431" ignored="false" />
+    <file path="/Rails levarme_landing: development" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1376676649965" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +33,11 @@
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
     <breakpoint_any>
@@ -84,7 +84,17 @@
     <favorites_list name="levarme_landing" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="pessoa_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/pessoa_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="0" selection-start="901" selection-end="901" vertical-scroll-proportion="1.2084063">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -119,6 +129,7 @@
         <option value="$PROJECT_DIR$/db/migrate/20130609194146_create_pessoas.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130814172149_create_pessoa_chats.rb" />
         <option value="$PROJECT_DIR$/app/models/pessoa_chat.rb" />
+        <option value="db-console:/ca447fae/4f972952-2c5f-4317-b5ab-05e0cf2f1018/" />
         <option value="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" />
       </list>
     </option>
@@ -501,22 +512,26 @@
       <created>1368380714715</created>
       <updated>1368380714715</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Criando um método para buscar os chats de uma determinada pessoa">
+      <created>1376526129458</created>
+      <updated>1376526129458</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.7928417" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35108694" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67065215" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27267876" sideWeight="0.4284165" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5715835" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34891304" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -524,6 +539,7 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -577,7 +593,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fazendo umas validações e mudando a versão do rails" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando um método para buscar os chats de uma determinada pessoa" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -592,21 +608,12 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Fazendo umas validações e mudando a versão do rails" />
+    <MESSAGE value="Criando um método para buscar os chats de uma determinada pessoa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="19" selection-start="614" selection-end="614" vertical-scroll-proportion="0.37394246" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="3" selection-start="650" selection-end="650" vertical-scroll-proportion="0.46023688" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="44" selection-start="772" selection-end="799" vertical-scroll-proportion="0.4247039" />
@@ -659,28 +666,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/pessoa.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="59" selection-end="59" vertical-scroll-proportion="0.03794643" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130814172149_create_pessoa_chats.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3" selection-start="164" selection-end="164" vertical-scroll-proportion="0.094866075">
+        <state line="5" column="3" selection-start="164" selection-end="164" vertical-scroll-proportion="0.094866075" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="8" selection-start="4441" selection-end="4441" vertical-scroll-proportion="0.3325893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/pessoa.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="24" selection-start="59" selection-end="59" vertical-scroll-proportion="0.05923345">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/pessoa_chat.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="78" selection-end="78" vertical-scroll-proportion="0.05691964">
+        <state line="2" column="31" selection-start="70" selection-end="77" vertical-scroll-proportion="0.05923345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/ca447fae/4f972952-2c5f-4317-b5ab-05e0cf2f1018/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="26" selection-start="0" selection-end="26" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pessoa_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="11" selection-start="360" selection-end="360" vertical-scroll-proportion="0.43638393">
+        <state line="50" column="0" selection-start="901" selection-end="901" vertical-scroll-proportion="1.2084063">
           <folding />
         </state>
       </provider>
