@@ -1,50 +1,155 @@
-<div class="container">
-  <h1 class="site-heading">Levar.<span style="color: #91D8F7">me</span></h1>
+<!-- Top Starts -->
+<div class="top">
 
-  <p class="description">We are building our awesome new app.<br>Submit your email to subscribe for news.</p>
-
-  <%= form_for(@registered, :url => {:action => 'create'}, :html => { :class => "subscribe-form form-inline", :id => "subscribe-form" }) do |e| %>
-      <%= e.text_field :email, :maxlength => 50, :placeholder => 'Email', :id => "subscribe-email", :class => "subscribe-email" %>
-      <div class="subscribe-submit-container">
-        <%= e.submit :class => "subscribe-submit btn btn-large btn-inverse", :id => "subscribe", :value => "SUBSCRIBE" %>
+  <!-- Header Starts -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="logo">
+            <h1><a href="http://levar.me">Levar.<span class="tblue">me</span></a></h1>
+          </div>
+        </div>
+        <div class="navigation pull-right">
+          <a href="#">Portuguese</a>
+          <a href="#howitworks">How it works</a>
+        </div>
       </div>
-      <% if flash[:error] -%>
-          <p id="subscribe-tooltip" class="subscribe-tooltip error" style="display: block;">
-              <%=h flash[:error] %>
-          </p>
-      <% end -%>
-      <% if flash[:success] -%>
-          <p id="subscribe-tooltip" class="subscribe-tooltip success" style="display: block;">
-              <%=h flash[:success] %>
-          </p>
-      <% end -%>
-  <% end %>
-
-  <% if flash[:notice] -%>
-      <p class='notice'><%=h flash[:notice] %></p>
-  <% end -%>
-
-  <!-- Countdown -->
-  <div id="countdown" class="countdown">
-    <div class="countdown-item">
-      <div class="countdown-number countdown-days"></div>
-      <div class="countdown-text">days</div>
     </div>
+  </header>
+  <!-- Header Ends -->
 
-    <div class="countdown-item">
-      <div class="countdown-number countdown-hours"></div>
-      <div class="countdown-text">hours</div>
-    </div>
+  <!-- Hero starts -->
+  <div class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="intro">
+            <h2>Ridesharing<span class="tblue">.</span> Cabsharing<span class="tblue">.</span> to parties<span class="tblue">.</span></h2>
+            <p>Levar.me connects to your Facebook and uses your friend list to find the cheapest way to the event</p><br>
+            <%= form_for(@registered, :url => {:action => 'create'}, :html => { :class => "form-register" }) do |e| %>
+                <div class="input-append">
+                  <%= e.text_field :email, :maxlength => 50, :placeholder => 'Insert your email to join the beta', :class => "span2" %>
+                  <%= e.submit :class => "btn btn-success", :value => "Join" %>
+                </div>
+          <% end %>
 
-    <div class="countdown-item">
-      <div class="countdown-number countdown-minutes"></div>
-      <div class="countdown-text">minutes</div>
-    </div>
 
-    <div class="countdown-item">
-      <div class="countdown-number countdown-seconds"></div>
-      <div class="countdown-text">seconds</div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <!-- /Countdown -->
+  <!-- Hero ends -->
+
+
 </div>
+<!-- Top Ends -->
+
+<!-- Shots starts -->
+<div class="shots" id="howitworks">
+  <div class="container">
+    <!-- shot1-->
+    <div class="row">
+      <div class="col-md-4">
+        <div class="screenshot">
+          <%= image_tag 'f2.png', :class => 'img-responsive' %>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="shotcontent">
+          <h3>Tap on the event <span class="text-muted"> and see who else is going</span></h3>
+          <p class="shot-para">Levar shows which of your friends and their friends are going.</p>
+          <p class="shot-para">Tap on someone you find interesting and decide if you're getting a ride or sharing a cab.</p>
+          <p class="shot-para">That's it! You're well on your way to enjoying a car or cab filled with interesting people. </p>
+          <hr>
+
+        </div>
+      </div>
+
+    </div>
+    <hr>
+    <!-- shot1 ends -->
+
+    <!-- shot2 -->
+    <div class="row">
+      <div class="col-md-8">
+        <div class="shotcontent">
+          <h3>It's cheaper <span class="text-muted"> and an experience</span></h3>
+          <p class="shot-para">However you decide to get there, we're happy you'll be having a cheaper and more fulfilling experience </p>
+          <p class="shot-para">By connecting to your Facebook, you'll be shown friends, and friends of friends, so you'll safer and have an ice-breaker </p>
+          <p class="shot-para"> Sharing a cab ride, or sharing someone's car you'll be part of a tight trusting community. </p>
+          <hr>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="screenshot">
+          <%= image_tag 'f3.png', :class => 'img-responsive' %>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- shot2 ends -->
+
+    <!-- shot3 -->
+    <div class="row">
+      <div class="col-md-4">
+        <div class="screenshot">
+          <%= image_tag 'f4.png', :class => 'img-responsive' %>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="shotcontent">
+          <h3>That sounds so much fun<span class="text-muted"> I want to offer rides.</span></h3>
+          <p class="shot-para"> Drivers are always welcome, and they'll be a rockstar for the night. </p>
+          <p class="shot-para">We've gone out of our way to partner with the biggest brands to make sure you get the ultimate VIP experience </p>
+          <p class="shot-para">Interested? Drop us a line at awesome@levar.me </p>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <!-- shot3 ends -->
+    <hr>
+  </div>
+
+</div>
+
+<!-- Shots Ends -->
+
+<!-- Footer starts -->
+<footer>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="copy text-center">
+          Copyright © 2013 - Levar.me - All rights reserved
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+<!-- Footer Ends -->
+
+<!-- Smooth anchor -->
+<script>
+
+    $(document).ready(function(){
+
+        $('a[href^="#"]').on('click',function (e) {
+            e.preventDefault();
+
+            var target = this.hash,
+                    $target = $(target);
+
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 900, 'swing', function () {
+                window.location.hash = target;
+            });
+        });
+
+    });
+
+</script>
