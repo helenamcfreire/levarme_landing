@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b61ad7a8-1956-43ec-925a-e5a417939a4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/Images/jk-capa2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/registered/new.html.erb" afterPath="$PROJECT_DIR$/app/views/registered/new.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/style.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="725399fb-5ecb-4880-b750-b9cca483b175" name="NAO_COMMITAR" comment="" />
     <ignored path="levarme_landing.iws" />
@@ -23,6 +20,7 @@
     <file path="/20130814172149_create_pessoa_chats.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1376501336431" ignored="false" />
     <file path="/Rails levarme_landing: development" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1382994551457" ignored="false" />
     <file path="/new.html.erb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1383007142926" ignored="false" />
+    <file path="/style.css" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1383050934186" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,37 +85,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pessoa_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/pessoa_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="29" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registered_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/registered_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="5" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="31" selection-start="212" selection-end="212" vertical-scroll-proportion="-6.5384617">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/registered/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="44" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.41474655">
+            <state line="118" column="102" selection-start="4304" selection-end="4304" vertical-scroll-proportion="0.797235">
               <folding>
                 <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -129,7 +100,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="39" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0">
+            <state line="811" column="20" selection-start="12515" selection-end="12515" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -769,13 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="39" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/registered_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="5" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
@@ -790,9 +754,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="811" column="20" selection-start="12515" selection-end="12515" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/registered/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="44" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.41474655">
+        <state line="118" column="102" selection-start="4304" selection-end="4304" vertical-scroll-proportion="0.797235">
           <folding>
             <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />

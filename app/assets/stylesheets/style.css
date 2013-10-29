@@ -807,6 +807,10 @@ footer .copy{
 		line-height:50px;
 	}
 
+    .input-append input[type=text] {
+        width: 210px;
+    }
+
 }
 
 /* Tablets */
