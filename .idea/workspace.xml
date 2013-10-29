@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b61ad7a8-1956-43ec-925a-e5a417939a4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/Images/f2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/Images/f3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/Images/f4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/Images/google-play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/Images/jk-capa.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/Images/mercedes.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/Images/scroll-down-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
-      <change type="DELETED" beforePath="C:\Users\Helena\Projetos\CloneProjects\levarme_landing\app\assets\Images\bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Helena\Projetos\CloneProjects\levarme_landing\app\assets\Images\bg_old.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Helena\Projetos\CloneProjects\levarme_landing\app\assets\Images\hand-with-iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Helena\Projetos\CloneProjects\levarme_landing\app\assets\Images\rails.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Helena\Projetos\CloneProjects\levarme_landing\app\assets\stylesheets\bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Helena\Projetos\CloneProjects\levarme_landing\app\assets\stylesheets\bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Helena\Projetos\CloneProjects\levarme_landing\app\assets\stylesheets\pessoa.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Helena\Projetos\CloneProjects\levarme_landing\app\assets\stylesheets\registered.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Helena\Projetos\CloneProjects\levarme_landing\app\assets\stylesheets\sunrise.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/Images/jk-capa2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/levarme_landing.iml" afterPath="$PROJECT_DIR$/.idea/levarme_landing.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/registered/new.html.erb" afterPath="$PROJECT_DIR$/app/views/registered/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/style.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="725399fb-5ecb-4880-b750-b9cca483b175" name="NAO_COMMITAR" comment="" />
@@ -42,7 +22,7 @@
     <file path="/pessoa_chat.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1376501278783" ignored="false" />
     <file path="/20130814172149_create_pessoa_chats.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1376501336431" ignored="false" />
     <file path="/Rails levarme_landing: development" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1382994551457" ignored="false" />
-    <file path="/new.html.erb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1382994754534" ignored="false" />
+    <file path="/new.html.erb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1383007142926" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +108,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="686" selection-end="686" vertical-scroll-proportion="-15.692307">
+            <state line="10" column="31" selection-start="212" selection-end="212" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
@@ -137,8 +117,11 @@
       <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/registered/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="27" selection-start="3326" selection-end="3326" vertical-scroll-proportion="0.019585254">
-              <folding />
+            <state line="35" column="44" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.41474655">
+              <folding>
+                <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,7 +129,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="42" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.0">
+            <state line="98" column="39" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,11 +167,11 @@
         <option value="$PROJECT_DIR$/app/models/pessoa_chat.rb" />
         <option value="db-console:/ca447fae/4f972952-2c5f-4317-b5ab-05e0cf2f1018/" />
         <option value="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
         <option value="dbtable:/a731a7/4f972952-2c5f-4317-b5ab-05e0cf2f1018/levarme.public.registereds" />
         <option value="db-console:/a731a7/4f972952-2c5f-4317-b5ab-05e0cf2f1018/" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/app/views/registered/new.html.erb" />
       </list>
     </option>
@@ -622,11 +605,11 @@
     <layout>
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35032538" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2139808" sideWeight="0.67065215" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27267876" sideWeight="0.67065215" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27267876" sideWeight="0.651087" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -748,20 +731,6 @@
         <state line="2" column="31" selection-start="70" selection-end="77" vertical-scroll-proportion="0.05923345" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pessoa_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="29" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/registered_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="17" selection-start="607" selection-end="607" vertical-scroll-proportion="0.26621923">
@@ -772,20 +741,6 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="686" selection-end="686" vertical-scroll-proportion="-15.692307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="42" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -807,10 +762,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pessoa_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="29" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="39" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/registered_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="5" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="31" selection-start="212" selection-end="212" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/registered/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="27" selection-start="3326" selection-end="3326" vertical-scroll-proportion="0.019585254">
-          <folding />
+        <state line="35" column="44" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.41474655">
+          <folding>
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

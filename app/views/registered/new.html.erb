@@ -32,6 +32,16 @@
                   <%= e.text_field :email, :maxlength => 50, :placeholder => 'Insert your email to join the beta', :class => "span2" %>
                   <%= e.submit :class => "btn btn-success", :value => "Join" %>
                 </div>
+                <% if flash[:error] -%>
+                    <p style="color: #da4f49">
+                      <%=h flash[:error] %>
+                    </p>
+                <% end -%>
+                <% if flash[:success] -%>
+                    <p style="color: #5cb85c">
+                      <%=h flash[:success] %>
+                    </p>
+                <% end -%>
           <% end %>
 
 
