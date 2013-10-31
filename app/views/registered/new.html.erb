@@ -11,11 +11,6 @@
           </div>
         </div>
         <div class="navigation pull-right">
-          <% if I18n.locale == I18n.default_locale %>
-              <%= link_to t(:portuguese), :controller => 'application', :action => 'set_locale', :locale => 'pt' %>
-          <% else %>
-              <%= link_to t(:english), :controller => 'application', :action => 'set_locale', :locale => 'en' %>
-          <%end%>
           <a href="#howitworks"><%=t :howitworks %></a>
         </div>
       </div>

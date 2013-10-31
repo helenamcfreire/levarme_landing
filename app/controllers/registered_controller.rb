@@ -8,10 +8,10 @@ class RegisteredController < ApplicationController
 
   def create
 
-    geolocation = open('http://freegeoip.net/json/'+public_ip).read
+
 
     @registered = Registered.new(params[:registered])
-    @registered.location = JSON.parse(geolocation)['country_name']
+    @registered.location = user_country
 
     if @registered.save
       flash[:success] = 'You have been subscribed!'
