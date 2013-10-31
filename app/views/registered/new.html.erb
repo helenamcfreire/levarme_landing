@@ -11,8 +11,12 @@
           </div>
         </div>
         <div class="navigation pull-right">
-          <a href="#">Portuguese</a>
-          <a href="#howitworks">How it works</a>
+          <% if I18n.locale == I18n.default_locale %>
+              <%= link_to t(:portuguese), :controller => 'application', :action => 'set_locale', :locale => 'pt' %>
+          <% else %>
+              <%= link_to t(:english), :controller => 'application', :action => 'set_locale', :locale => 'en' %>
+          <%end%>
+          <a href="#howitworks"><%=t :howitworks %></a>
         </div>
       </div>
     </div>
@@ -25,12 +29,12 @@
       <div class="row">
         <div class="col-md-8">
           <div class="intro">
-            <h2>Ridesharing<span class="tblue">.</span> Cabsharing<span class="tblue">.</span> to parties<span class="tblue">.</span></h2>
-            <p>Levar.me connects to your Facebook and uses your friend list to find the cheapest way to the event</p><br>
+            <h2><%=t :ridesharing %><span class="tblue">.</span> <%=t :cabsharing %><span class="tblue">.</span> <%=t :toparties %><span class="tblue">.</span></h2>
+            <p><%=t :first_title %></p><br>
             <%= form_for(@registered, :url => {:action => 'create'}, :html => { :class => "form-register" }) do |e| %>
                 <div class="input-append">
-                  <%= e.text_field :email, :maxlength => 50, :placeholder => 'Insert your email to join the beta', :class => "span2" %>
-                  <%= e.submit :class => "btn btn-success", :value => "Join" %>
+                  <%= e.text_field :email, :maxlength => 50, :placeholder => 'Insert your email to join the beta', :class => 'span2' %>
+                  <%= e.submit :class => 'btn btn-success', :value => 'Join' %>
                 </div>
                 <% if flash[:error] -%>
                     <p style="color: #da4f49">
@@ -68,10 +72,10 @@
       </div>
       <div class="col-md-8">
         <div class="shotcontent">
-          <h3>Tap on the event <span class="text-muted"> and see who else is going</span></h3>
-          <p class="shot-para">Levar shows which of your friends and their friends are going.</p>
-          <p class="shot-para">Tap on someone you find interesting and decide if you're getting a ride or sharing a cab.</p>
-          <p class="shot-para">That's it! You're well on your way to enjoying a car or cab filled with interesting people. </p>
+          <h3><%=t :tap_event %> <span class="text-muted"> <%=t :see_who %></span></h3>
+          <p class="shot-para"><%=t :levar_shows %></p>
+          <p class="shot-para"><%=t :tap_someone %></p>
+          <p class="shot-para"><%=t :thats_it %> </p>
           <hr>
 
         </div>
@@ -85,10 +89,10 @@
     <div class="row">
       <div class="col-md-8">
         <div class="shotcontent">
-          <h3>It's cheaper <span class="text-muted"> and an experience</span></h3>
-          <p class="shot-para">However you decide to get there, we're happy you'll be having a cheaper and more fulfilling experience </p>
-          <p class="shot-para">By connecting to your Facebook, you'll be shown friends, and friends of friends, so you'll feel safer and have an ice-breaker </p>
-          <p class="shot-para"> Sharing a cab ride, or sharing someone's car you'll be part of a tight trusting community. </p>
+          <h3><%=t :cheaper %> <span class="text-muted"> <%=t :experience %></span></h3>
+          <p class="shot-para"><%=t :however_decide %> </p>
+          <p class="shot-para"><%=t :by_connecting %> </p>
+          <p class="shot-para"> <%=t :sharing_cab %> </p>
           <hr>
         </div>
       </div>
@@ -110,13 +114,14 @@
       </div>
       <div class="col-md-8">
         <div class="shotcontent">
-          <h3>That sounds so much fun<span class="text-muted"> I want to offer rides.</span></h3>
-          <p class="shot-para"> Drivers are always welcome, and they'll be a rockstar for the night. </p>
-          <p class="shot-para">We've gone out of our way to partner with the biggest brands to make sure you get the ultimate VIP experience </p>
-          <p class="shot-para">Interested? Drop us a line at awesome@levar.me </p>
+          <h3><%=t :sounds_fun %><span class="text-muted"> <%=t :offer_rides %></span></h3>
+          <p class="shot-para"> <%=t :drivers_welcome %> </p>
+          <p class="shot-para"><%=t :gone_out %> </p>
+          <p class="shot-para"><%=t :interested %> </p>
           <hr>
         </div>
       </div>
+
     </div>
     <!-- shot3 ends -->
     <hr>
