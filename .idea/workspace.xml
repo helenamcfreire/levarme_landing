@@ -4,6 +4,7 @@
     <list default="true" id="b61ad7a8-1956-43ec-925a-e5a417939a4a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="725399fb-5ecb-4880-b750-b9cca483b175" name="NAO_COMMITAR" comment="" />
     <ignored path="levarme_landing.iws" />
