@@ -27,3 +27,10 @@ en:
   gone_out: "We've gone out of our way to partner with the biggest brands to make sure you get the ultimate VIP experience"
   interested: "Interested? Drop us a line at awesome@levar.me"
   english: "English"
+  iphone1: "/assets/f2.png"
+  iphone2: "/assets/f3.png"
+  iphone3: "/assets/f4.png"
+  success: "Cool! We'll send you an email shortly"
+  error: 'Email is invalid. Please, enter valid email.'
+  insert_email: "Insert your email to join the beta"
+  join: "Join"

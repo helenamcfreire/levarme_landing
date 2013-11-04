@@ -27,3 +27,10 @@ pt:
   gone_out: "Nós fechamos parcerias com algumas das maiores marcas e casas de festa para garantir a você, o motorista, a noite mais épica."
   interested: "Se interessou? Nos envie um email: awesome@levar.me"
   english: "Inglês"
+  iphone1: "/assets/f2-port.png"
+  iphone2: "/assets/f3-port.png"
+  iphone3: "/assets/f4-port.png"
+  success: "Legal! Já já te enviaremos um e-mail"
+  error: 'Este e-mail não é válido. Por favor, informe um e-mail válido.'
+  insert_email: "Cadastre-se para a versão beta"
+  join: "Cadastrar"

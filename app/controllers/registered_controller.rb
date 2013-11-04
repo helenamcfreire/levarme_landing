@@ -14,11 +14,11 @@ class RegisteredController < ApplicationController
     @registered.location = user_country
 
     if @registered.save
-      flash[:success] = 'You have been subscribed!'
+      flash[:success] = I18n.t :success
     else
-      flash[:error] = 'Email is invalid. Please, enter valid email.'
+      flash[:error] = I18n.t :error
     end
-    redirect_to '/registered/new'
+    redirect_to root_url
 
   end
 

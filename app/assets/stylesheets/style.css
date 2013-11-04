@@ -41,12 +41,12 @@ hr{
 /* Basic CSS ends */
 
 .form-register input[type="text"] {
-	padding: 30px;
+	padding: 27px;
 	width: 350px;
 }
 
 .form-register input[type="submit"] {
-	padding: 20px;
+	padding: 17px;
 }
 
 .footer-cta {
@@ -86,7 +86,8 @@ hr{
 }
 
 .container{
-	width:900px;
+	width:800px;
+    margin-right: 460px;
 }
 
 .tblue{
@@ -96,7 +97,7 @@ hr{
 
 .top{
 	position: relative;
-    background: url('../assets/jk-capa2.jpg') no-repeat center center;
+    background: url('../assets/jk-capa3.jpg') no-repeat center center;
   	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
@@ -173,7 +174,7 @@ header .navigation a:hover{
 
 .hero .intro h2{
 	color:#fff;
-	font-size:40px;
+	font-size:35px;
 	text-transform:uppercase;
 	font-weight:bold;
 	
@@ -181,7 +182,7 @@ header .navigation a:hover{
 
 .hero .intro p{
 	color:#eee;
-	font-size:22px;
+	font-size:18px;
 }
 
 .hero .intro a.download{
