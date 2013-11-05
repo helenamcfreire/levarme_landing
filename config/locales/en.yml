@@ -34,3 +34,4 @@ en:
   error: 'Email is invalid. Please, enter valid email.'
   insert_email: "Insert your email to join the beta"
   join: "Join"
+  period: "."

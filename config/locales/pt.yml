@@ -34,3 +34,4 @@ pt:
   error: 'Este e-mail não é válido. Por favor, informe um e-mail válido.'
   insert_email: "Cadastre-se para a versão beta"
   join: "Cadastrar"
+  period: ""

@@ -85,9 +85,9 @@ hr{
 	background-image: url(../assets/google-play.png);
 }
 
-.container{
-	width:800px;
-    margin-right: 460px;
+.principal {
+    margin-right: 179px!important;
+    width: 907px;
 }
 
 .tblue{
@@ -162,8 +162,7 @@ header .navigation a:hover{
 /* Hero */
 
 .hero{
-	padding-top:20px;
-	
+    text-align: right;
 }
 
 .hero .shot img{

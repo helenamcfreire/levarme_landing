@@ -20,11 +20,11 @@
 
   <!-- Hero starts -->
   <div class="hero">
-    <div class="container">
+    <div class="container principal">
       <div class="row">
         <div class="col-md-8">
           <div class="intro">
-            <h2><%=t :ridesharing %><span class="tblue">.</span> <%=t :cabsharing %><span class="tblue">.</span> <%=t :toparties %><span class="tblue">.</span></h2>
+            <h2><%=t :ridesharing %><span class="tblue"><%=t :period %></span> <%=t :cabsharing %><span class="tblue"><%=t :period %></span> <%=t :toparties %><span class="tblue"><%=t :period %></span></h2>
             <p><%=t :first_title %></p><br>
             <%= form_for(@registered, :url => {:action => 'create'}, :html => { :class => "form-register" }) do |e| %>
                 <div class="input-append">
