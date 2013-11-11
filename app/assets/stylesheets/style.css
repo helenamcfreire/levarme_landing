@@ -85,9 +85,9 @@ hr{
 	background-image: url(../assets/google-play.png);
 }
 
-.principal {
-    margin-right: 179px!important;
-    width: 907px;
+.container{
+	width:800px;
+    margin-right: 460px;
 }
 
 .tblue{
@@ -97,7 +97,7 @@ hr{
 
 .top{
 	position: relative;
-    background: url('../assets/jk-capa3.jpg') no-repeat center center;
+    background: url('../assets/jk-capa5.jpg') no-repeat center center;
   	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
@@ -162,7 +162,8 @@ header .navigation a:hover{
 /* Hero */
 
 .hero{
-    text-align: right;
+	padding-top:20px;
+	
 }
 
 .hero .shot img{
