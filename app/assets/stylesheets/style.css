@@ -41,12 +41,12 @@ hr{
 /* Basic CSS ends */
 
 .form-register input[type="text"] {
-	padding: 27px;
+	padding: 30px;
 	width: 350px;
 }
 
 .form-register input[type="submit"] {
-	padding: 17px;
+	padding: 20px;
 }
 
 .footer-cta {
@@ -86,8 +86,7 @@ hr{
 }
 
 .container{
-	width:800px;
-    margin-right: 460px;
+	width:900px;
 }
 
 .tblue{
@@ -174,7 +173,7 @@ header .navigation a:hover{
 
 .hero .intro h2{
 	color:#fff;
-	font-size:35px;
+	font-size:40px;
 	text-transform:uppercase;
 	font-weight:bold;
 	
@@ -182,7 +181,7 @@ header .navigation a:hover{
 
 .hero .intro p{
 	color:#eee;
-	font-size:18px;
+	font-size:22px;
 }
 
 .hero .intro a.download{
