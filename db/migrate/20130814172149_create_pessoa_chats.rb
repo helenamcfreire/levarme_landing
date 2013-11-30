@@ -1,8 +1,8 @@
 class CreatePessoaChats < ActiveRecord::Migration
   def up
-    create_table :pessoa_chats, :id => false do |t|
+    create_table :pessoa_chats, :id => true do |t|
       t.string :pessoa_id
-      t.string :chat_id
+      t.string :evento_id
     end
   end
 

@@ -13,9 +13,9 @@
 
 ActiveRecord::Schema.define(:version => 20131031155337) do
 
-  create_table "pessoa_chats", :id => false, :force => true do |t|
+  create_table "pessoa_chats", :force => true do |t|
     t.string "pessoa_id"
-    t.string "chat_id"
+    t.string "evento_id"
   end
 
   create_table "pessoas", :force => true do |t|
@@ -27,8 +27,8 @@ ActiveRecord::Schema.define(:version => 20131031155337) do
 
   create_table "registereds", :force => true do |t|
     t.string   "email",      :default => "", :null => false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
     t.string   "location"
   end
 

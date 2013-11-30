@@ -20,38 +20,30 @@ class PessoaController < ApplicationController
     render :json => @pessoas
   end
 
-  def add_pessoas_chat
+  def add_pessoa_chat
 
     #o método eval() serve pra transformar uma string em array
     ids_participantes = eval(params[:idsParticipantes])
 
-    id_chat = next_chat_id()
+    id_evento = params[:idEvento]
 
     ids_participantes.each do |id_participante|
       @pessoa_chat = PessoaChat.new
       @pessoa_chat.pessoa_id = id_participante
-      @pessoa_chat.chat_id = id_chat
+      @pessoa_chat.evento_id = id_evento
       @pessoa_chat.save
     end
 
   end
 
-  def next_chat_id
+  def list_chat
 
-    id_chat = 1
+    ids_participantes = eval(params[:idsParticipantes])
+    id_evento = params[:idEvento]
 
-    ultimo_chat = PessoaChat.order(:chat_id).last
+    @pessoa_chat = PessoaChat.all(:conditions => ['pessoa_id IN (?) AND evento_id = ?' , ids_participantes, id_evento])
 
-    if ultimo_chat != nil
-      id_chat = ultimo_chat.chat_id.next
-    end
-
-    id_chat
-  end
-
-  def list_chats
-    @pessoas_chat = PessoaChat.find_all_by_pessoa_id(params[:uid])
-    render :json => @pessoas_chat
+    render :json => @pessoa_chat
   end
 
 end
