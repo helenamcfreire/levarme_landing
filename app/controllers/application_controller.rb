@@ -11,11 +11,6 @@ class ApplicationController < ActionController::Base
 
   def set_locale
 
-    if user_country == 'Brazil'
-      I18n.locale = 'pt' || I18n.default_locale
-    else
-      I18n.locale = 'en' || I18n.default_locale
-    end
 
   end
 

@@ -24,6 +24,7 @@ class PessoaController < ApplicationController
 
     #o método eval() serve pra transformar uma string em array
     ids_participantes = eval(params[:idsParticipantes])
+    ids_participantes = ids_participantes.map(&:to_s)
 
     id_evento = params[:idEvento]
 
@@ -39,6 +40,8 @@ class PessoaController < ApplicationController
   def list_chat
 
     ids_participantes = eval(params[:idsParticipantes])
+    ids_participantes = ids_participantes.map(&:to_s)
+
     id_evento = params[:idEvento]
 
     @pessoa_chat = PessoaChat.all(:conditions => ['pessoa_id IN (?) AND evento_id = ?' , ids_participantes, id_evento])
