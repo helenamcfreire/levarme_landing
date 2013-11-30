@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b61ad7a8-1956-43ec-925a-e5a417939a4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130814172149_create_pessoa_chats.rb" afterPath="$PROJECT_DIR$/db/migrate/20130814172149_create_pessoa_chats.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/pessoa_chat.rb" afterPath="$PROJECT_DIR$/app/models/pessoa_chat.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <list id="725399fb-5ecb-4880-b750-b9cca483b175" name="NAO_COMMITAR" comment="" />
     <ignored path="levarme_landing.iws" />
@@ -16,7 +13,7 @@
     <file path="/application.css" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1382992868974" ignored="false" />
     <file path="/application.js" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1368378790978" ignored="false" />
     <file path="/pessoa.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1370807038696" ignored="false" />
-    <file path="/pessoa_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385825896305" ignored="false" />
+    <file path="/pessoa_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385827365509" ignored="false" />
     <file path="/20130609194146_create_pessoas.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1370807048270" ignored="false" />
     <file path="/pessoa_chat.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385825636614" ignored="false" />
     <file path="/20130814172149_create_pessoa_chats.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385825651669" ignored="false" />
@@ -113,7 +110,7 @@
       <file leaf-file-name="pessoa_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/pessoa_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="36" selection-start="807" selection-end="807" vertical-scroll-proportion="0.41387025">
+            <state line="37" column="11" selection-start="833" selection-end="833" vertical-scroll-proportion="0.44854587">
               <folding />
             </state>
           </provider>
@@ -863,13 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130814172149_create_pessoa_chats.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/pessoa_chat.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="50" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
@@ -877,9 +867,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130814172149_create_pessoa_chats.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pessoa_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="36" selection-start="807" selection-end="807" vertical-scroll-proportion="0.41387025">
+        <state line="37" column="11" selection-start="833" selection-end="833" vertical-scroll-proportion="0.44854587">
           <folding />
         </state>
       </provider>

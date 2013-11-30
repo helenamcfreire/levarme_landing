@@ -28,14 +28,20 @@ class PessoaController < ApplicationController
 
     id_evento = params[:idEvento]
 
+    @pessoa_chat_cadastrada = PessoaChat.all(:conditions => ['pessoa_id IN (?) AND evento_id = ?' , ids_participantes, id_evento])
+
     id_chat = next_chat_id()
 
-    ids_participantes.each do |id_participante|
-      @pessoa_chat = PessoaChat.new
-      @pessoa_chat.pessoa_id = id_participante
-      @pessoa_chat.evento_id = id_evento
-      @pessoa_chat.chat_id = id_chat
-      @pessoa_chat.save
+    if @pessoa_chat_cadastrada == nil
+
+        ids_participantes.each do |id_participante|
+          @pessoa_chat = PessoaChat.new
+          @pessoa_chat.pessoa_id = id_participante
+          @pessoa_chat.evento_id = id_evento
+          @pessoa_chat.chat_id = id_chat
+          @pessoa_chat.save
+        end
+
     end
 
   end
