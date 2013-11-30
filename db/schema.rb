@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(:version => 20131031155337) do
   create_table "pessoa_chats", :force => true do |t|
     t.string "pessoa_id"
     t.string "evento_id"
+    t.string "chat_id"
   end
 
   create_table "pessoas", :force => true do |t|
