@@ -3,14 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b61ad7a8-1956-43ec-925a-e5a417939a4a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="725399fb-5ecb-4880-b750-b9cca483b175" name="NAO_COMMITAR" comment="" />
     <ignored path="levarme_landing.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385812366201" ignored="false" />
+    <file path="/Dummy.txt" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1386782631249" ignored="false" />
     <file path="/a.dummy" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1368378496421" ignored="false" />
     <file path="/registered_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1383525007930" ignored="false" />
-    <file path="/application.css" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1382992868974" ignored="false" />
+    <file path="/application.css" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385938446746" ignored="false" />
     <file path="/application.js" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1368378790978" ignored="false" />
     <file path="/pessoa.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1370807038696" ignored="false" />
     <file path="/pessoa_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385827365509" ignored="false" />
@@ -19,7 +20,7 @@
     <file path="/20130814172149_create_pessoa_chats.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385825651669" ignored="false" />
     <file path="/Rails levarme_landing: development" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385812610223" ignored="false" />
     <file path="/new.html.erb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1383690320331" ignored="false" />
-    <file path="/style.css" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1383690536728" ignored="false" />
+    <file path="/style.css" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1386165974528" ignored="false" />
     <file path="/registered.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1383232297829" ignored="false" />
     <file path="/20130511012324_create_registereds.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1383232038340" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/servicos/app/controllers/application_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1383232172599" ignored="false" />
@@ -28,21 +29,35 @@
     <file path="/en.yml" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385734697608" ignored="false" />
     <file path="/application.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1383237331905" ignored="false" />
     <file path="/application_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385814227422" ignored="false" />
-    <file path="/temp.yml" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385734432530" ignored="false" />
+    <file path="/temp.yml" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1386166264093" ignored="false" />
     <file path="/dummy.sql" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1383240277532" ignored="false" />
     <file path="/a.sql" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1383240281818" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/babycam/Gemfile.lock" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385654664875" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/babycam/config/routes.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385654765658" ignored="false" />
-    <file path="/routes.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385654762655" ignored="false" />
+    <file path="/routes.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385937999609" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/babycam/app/controllers/home_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385734726269" ignored="false" />
-    <file path="/home_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385734709200" ignored="false" />
+    <file path="/home_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385938016041" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/babycam/app/views/home/index.html.erb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385734605852" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/babycam/config/database.yml" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385654926313" ignored="false" />
-    <file path="/index.html.erb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385734593747" ignored="false" />
+    <file path="/index.html.erb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1386165918123" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/babycam/config/locales/en.yml" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385734697608" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/babycam/app/models/cadastrado.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385734518144" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/babycam/db/migrate/20131129141442_create_cadastrados.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385734563196" ignored="false" />
     <file path="/20131129141442_create_cadastrados.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385734560207" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Ruby/quemvaicair/Gemfile" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385937959524" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Ruby/quemvaicair/Gemfile.lock" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385937955465" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Ruby/quemvaicair/config/routes.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385938008291" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Ruby/quemvaicair/app/controllers/home_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1386166268590" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Ruby/quemvaicair/app/views/home/index.html.erb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1386166350122" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Ruby/quemvaicair/config/database.yml" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385938050512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Ruby/quemvaicair/app/views/layouts/application.html.erb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385938339073" ignored="false" />
+    <file path="/application.html.erb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385938286544" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Ruby/quemvaicair/app/assets/stylesheets/style.css" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1386166020400" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Ruby/quemvaicair/app/assets/stylesheets/application.css" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385938447781" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Ruby/quemvaicair/app/models/order.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1386166155537" ignored="false" />
+    <file path="/order.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1386166148804" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Ruby/quemvaicair/config/locales/en.yml" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1386166264093" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Ruby/OndeJogarSquash/log/development.log" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1386782631249" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,25 +125,7 @@
       <file leaf-file-name="pessoa_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/pessoa_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="11" selection-start="833" selection-end="833" vertical-scroll-proportion="0.44854587">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pessoa_chat.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/pessoa_chat.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="50" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20130814172149_create_pessoa_chats.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130814172149_create_pessoa_chats.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="20" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+            <state line="46" column="27" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.87276787">
               <folding />
             </state>
           </provider>
@@ -204,7 +201,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -216,149 +213,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="NAO_COMMITAR" />
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="RailsProjectView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ModelsFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levarme_landing" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ControllersFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -366,14 +220,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="270" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="299" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="293" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Ruby/servicos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="300" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="967" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="975" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="967" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="293" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="291" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -390,9 +244,9 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="org.jetbrains.plugins.ruby.i18n.inspection.quickfixes.I18nCreatePropertyDialog" value="en.yml" />
-    <property name="options.searchVisible" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -678,7 +532,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34891304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34815618" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2139808" sideWeight="0.6532609" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -771,112 +625,96 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="2" selection-start="245" selection-end="318" vertical-scroll-proportion="0.0950783">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/railties-3.2.9/guides/code/getting_started/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/registered.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="99" selection-start="154" selection-end="154" vertical-scroll-proportion="0.11409396">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/pt.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="2" selection-start="1758" selection-end="1879" vertical-scroll-proportion="0.60850114">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/registered/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="19" selection-start="911" selection-end="1671" vertical-scroll-proportion="0.019585254">
-          <folding />
-        </state>
+        <state line="32" column="2" selection-start="1758" selection-end="1879" vertical-scroll-proportion="0.60850114" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130511012324_create_registereds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="5" selection-start="50" selection-end="192" vertical-scroll-proportion="0.17114094">
+        <state line="9" column="5" selection-start="50" selection-end="192" vertical-scroll-proportion="0.17114094" />
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/a731a7/4f972952-2c5f-4317-b5ab-05e0cf2f1018/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="26" selection-start="0" selection-end="26" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/kernel.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1791" column="8" selection-start="78028" selection-end="78028" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.24720357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/pessoa_chat.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="50" selection-start="89" selection-end="89" vertical-scroll-proportion="0.03803132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130814172149_create_pessoa_chats.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0950783" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="4" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.059336822" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="20" selection-start="0" selection-end="812" vertical-scroll-proportion="0.08900524">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="2" selection-start="273" selection-end="273" vertical-scroll-proportion="0.059336822">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/registered.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="78" selection-end="149" vertical-scroll-proportion="0.07589286">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/registered_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="138" selection-end="374" vertical-scroll-proportion="0.22818792">
+        <state line="12" column="39" selection-start="171" selection-end="177" vertical-scroll-proportion="0.22767857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/registered/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="129" selection-start="1761" selection-end="1761" vertical-scroll-proportion="0.41034484">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="120" selection-end="246" vertical-scroll-proportion="0.3252174">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/a731a7/4f972952-2c5f-4317-b5ab-05e0cf2f1018/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="0" selection-end="26" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="4" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.4082774">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/kernel.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1791" column="8" selection-start="78028" selection-end="78028" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.24720357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/pessoa_chat.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="50" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130814172149_create_pessoa_chats.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+        <state line="8" column="67" selection-start="194" selection-end="194" vertical-scroll-proportion="0.15178572">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pessoa_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="11" selection-start="833" selection-end="833" vertical-scroll-proportion="0.44854587">
+        <state line="46" column="27" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.87276787">
           <folding />
         </state>
       </provider>

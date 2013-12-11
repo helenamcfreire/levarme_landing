@@ -44,6 +44,8 @@ class PessoaController < ApplicationController
 
     end
 
+    render :nothing => true
+
   end
 
   def next_chat_id
