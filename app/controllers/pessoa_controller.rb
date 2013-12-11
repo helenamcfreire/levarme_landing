@@ -32,7 +32,7 @@ class PessoaController < ApplicationController
 
     id_chat = next_chat_id()
 
-    if @pessoa_chat_cadastrada == nil
+    if @pessoa_chat_cadastrada.blank?
 
         ids_participantes.each do |id_participante|
           @pessoa_chat = PessoaChat.new
@@ -40,6 +40,7 @@ class PessoaController < ApplicationController
           @pessoa_chat.evento_id = id_evento
           @pessoa_chat.chat_id = id_chat
           @pessoa_chat.save
+          puts('SALVOU')
         end
 
     end
