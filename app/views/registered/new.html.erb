@@ -28,8 +28,9 @@
             <p><%=t :first_title %></p><br>
             <%= form_for(@registered, :url => {:action => 'create'}, :html => { :class => "form-register" }) do |e| %>
                 <div class="input-append">
-                  <%= e.text_field :email, :maxlength => 50, :placeholder => t(:insert_email), :class => 'span2' %>
-                  <%= e.submit :class => 'btn btn-success', :value => t(:join) %>
+                  <a href="https://play.google.com/store/apps/details?id=me.levar" target="_blank">
+                    <img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
+                  </a>
                 </div>
                 <% if flash[:error] -%>
                     <p style="color: #da4f49">
