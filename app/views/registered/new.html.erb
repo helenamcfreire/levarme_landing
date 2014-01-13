@@ -28,7 +28,7 @@
             <p><%=t :first_title %></p><br>
             <%= form_for(@registered, :url => {:action => 'create'}, :html => { :class => "form-register" }) do |e| %>
                 <div class="input-append">
-                  <a href="https://play.google.com/store/apps/details?id=me.levar" target="_blank">
+                  <a href="https://play.google.com/store/apps/details?id=me.levar" onclick="_gaq.push(['_trackEvent', 'Download Button', 'Play Store']);" target="_blank">
                     <img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
                   </a>
                 </div>
