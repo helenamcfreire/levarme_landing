@@ -3,7 +3,7 @@ class CreatePessoaChats < ActiveRecord::Migration
     create_table :pessoa_chats, :id => true do |t|
       t.string :pessoa_id
       t.string :evento_id
-      t.string :chat_id
+      t.integer :chat_id
     end
   end
 
