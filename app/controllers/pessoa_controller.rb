@@ -32,7 +32,7 @@ class PessoaController < ApplicationController
 
     id_chat = next_chat_id()
 
-    if @pessoa_chat_cadastrada.blank?
+    if @pessoa_chat_cadastrada.size <= 1
 
         ids_participantes.each do |id_participante|
           @pessoa_chat = PessoaChat.new
