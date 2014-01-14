@@ -28,20 +28,18 @@ class PessoaController < ApplicationController
 
     id_evento = params[:idEvento]
 
-    @pessoa_chat_cadastrada = PessoaChat.all(:conditions => ['pessoa_id IN (?) AND evento_id = ?' , ids_participantes, id_evento])
+    @pessoa_chat_cadastrada = PessoaChat.all(:conditions => ['participante_1_id IN (?) AND participante_2_id IN (?) AND evento_id = ?' , ids_participantes, ids_participantes, id_evento])
 
     id_chat = next_chat_id()
 
-    if @pessoa_chat_cadastrada.size <= 1
+    if @pessoa_chat_cadastrada.blank?
 
-        ids_participantes.each do |id_participante|
-          @pessoa_chat = PessoaChat.new
-          @pessoa_chat.pessoa_id = id_participante
-          @pessoa_chat.evento_id = id_evento
-          @pessoa_chat.chat_id = id_chat
-          @pessoa_chat.save
-          puts('SALVOU')
-        end
+        @pessoa_chat = PessoaChat.new
+        @pessoa_chat.participante_1_id = ids_participantes[0]
+        @pessoa_chat.participante_2_id = ids_participantes[1]
+        @pessoa_chat.evento_id = id_evento
+        @pessoa_chat.chat_id = id_chat
+        @pessoa_chat.save
 
     end
 
@@ -69,7 +67,7 @@ class PessoaController < ApplicationController
 
     id_evento = params[:idEvento]
 
-    @pessoa_chat = PessoaChat.all(:conditions => ['pessoa_id IN (?) AND evento_id = ?' , ids_participantes, id_evento])
+    @pessoa_chat = PessoaChat.all(:conditions => ['participante_1_id IN (?) AND participante_2_id IN (?) AND evento_id = ?' , ids_participantes, ids_participantes, id_evento])
 
     render :json => @pessoa_chat
   end
