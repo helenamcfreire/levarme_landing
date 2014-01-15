@@ -43,7 +43,9 @@ class PessoaController < ApplicationController
 
     end
 
-    render :nothing => true
+    json = {'uid' => @pessoa_chat.nil?}
+
+    render :json => json
 
   end
 
