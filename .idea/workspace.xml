@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b61ad7a8-1956-43ec-925a-e5a417939a4a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="725399fb-5ecb-4880-b750-b9cca483b175" name="NAO_COMMITAR" comment="" />
     <ignored path="levarme_landing.iws" />
@@ -14,7 +13,7 @@
     <file path="/application.css" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385938446746" ignored="false" />
     <file path="/application.js" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1368378790978" ignored="false" />
     <file path="/pessoa.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1370807038696" ignored="false" />
-    <file path="/pessoa_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1389756489180" ignored="false" />
+    <file path="/pessoa_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1389756788351" ignored="false" />
     <file path="/20130609194146_create_pessoas.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1370807048270" ignored="false" />
     <file path="/pessoa_chat.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1389713038469" ignored="false" />
     <file path="/20130814172149_create_pessoa_chats.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1389576271788" ignored="false" />
@@ -127,7 +126,7 @@
       <file leaf-file-name="pessoa_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/pessoa_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="13" selection-start="1119" selection-end="1132" vertical-scroll-proportion="0.8767361">
+            <state line="45" column="56" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.8767361">
               <folding />
             </state>
           </provider>
@@ -733,7 +732,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pessoa_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="13" selection-start="1119" selection-end="1132" vertical-scroll-proportion="0.8767361">
+        <state line="45" column="56" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.8767361">
           <folding />
         </state>
       </provider>

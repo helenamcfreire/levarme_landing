@@ -43,7 +43,7 @@ class PessoaController < ApplicationController
 
     end
 
-    json = {'foiCadastrado' => @pessoa_chat.nil?}
+    json = {'naoFoiCadastrado' => @pessoa_chat.nil?}
 
     render :json => json
 
