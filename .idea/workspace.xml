@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b61ad7a8-1956-43ec-925a-e5a417939a4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/pessoa.rb" afterPath="$PROJECT_DIR$/app/models/pessoa.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="725399fb-5ecb-4880-b750-b9cca483b175" name="NAO_COMMITAR" comment="" />
     <ignored path="levarme_landing.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392163037751" ignored="false" />
+    <file path="/Dummy.txt" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392166048088" ignored="false" />
     <file path="/a.dummy" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1368378496421" ignored="false" />
     <file path="/registered_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1383525007930" ignored="false" />
     <file path="/application.css" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385938446746" ignored="false" />
     <file path="/application.js" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1368378790978" ignored="false" />
     <file path="/pessoa.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1370807038696" ignored="false" />
-    <file path="/pessoa_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392164709961" ignored="false" />
+    <file path="/pessoa_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392166270027" ignored="false" />
     <file path="/20130609194146_create_pessoas.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1370807048270" ignored="false" />
     <file path="/pessoa_chat.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1389713038469" ignored="false" />
     <file path="/20130814172149_create_pessoa_chats.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1389576271788" ignored="false" />
@@ -129,7 +128,17 @@
     <favorites_list name="levarme_landing" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="pessoa_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/pessoa_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="165" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.89261746">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -151,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/controllers/registered_controller.rb" />
         <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/config/locales/pt.yml" />
@@ -165,8 +173,9 @@
         <option value="$PROJECT_DIR$/app/controllers/gcm_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140211235729_add_registration_id_to_pessoa.rb" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
-        <option value="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/pessoa.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" />
       </list>
     </option>
   </component>
@@ -551,7 +560,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3445652" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -646,19 +655,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130814172149_create_pessoa_chats.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/activerecord-3.2.9/lib/active_record/associations/join_dependency/join_association.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="136" column="12" selection-start="4618" selection-end="4618" vertical-scroll-proportion="0.54464287" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/pessoa_chat.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="dbDummy://db-console:/a731a7/4f972952-2c5f-4317-b5ab-05e0cf2f1018/">
@@ -692,13 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/gcm_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="59" selection-end="59" vertical-scroll-proportion="0.055459272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="130" selection-start="215" selection-end="215" vertical-scroll-proportion="0.305026">
@@ -706,30 +698,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/pessoa.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="64" selection-end="64" vertical-scroll-proportion="0.035794184">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140211235729_add_registration_id_to_pessoa.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="26" selection-start="97" selection-end="112" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="106" selection-start="856" selection-end="856" vertical-scroll-proportion="0.058076225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pessoa_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="49" selection-start="520" selection-end="520" vertical-scroll-proportion="0.4295302">
           <folding />
         </state>
       </provider>
@@ -744,6 +715,48 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="7" selection-start="292" selection-end="437" vertical-scroll-proportion="0.2147651">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/pessoa_chat.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="71" selection-start="110" selection-end="117" vertical-scroll-proportion="0.035794184">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140211235729_add_registration_id_to_pessoa.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="25" selection-start="96" selection-end="112" vertical-scroll-proportion="0.035794184">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="4" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.58836687">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/pessoa.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="32" selection-start="67" selection-end="82" vertical-scroll-proportion="0.035794184">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/gcm_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="32" selection-start="183" selection-end="188" vertical-scroll-proportion="0.08948546">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pessoa_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="165" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.89261746">
           <folding />
         </state>
       </provider>

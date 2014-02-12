@@ -69,14 +69,20 @@ class PessoaController < ApplicationController
 
   def list_chat
 
-    ids_participantes = eval(params[:idsParticipantes])
-    ids_participantes = ids_participantes.map(&:to_s)
+    ids_participantes = [params[:currentUserId], params[:idAmigo]]
 
     id_evento = params[:idEvento]
 
     @pessoa_chat = PessoaChat.all(:conditions => ['participante_1_id IN (?) AND participante_2_id IN (?) AND evento_id = ?' , ids_participantes, ids_participantes, id_evento])
+    @pessoa = Pessoa.find_by_uid(params[:idAmigo])
 
-    render :json => @pessoa_chat
+    #render :json => @pessoa_chat
+
+    json = @pessoa_chat.all.collect do |pessoa_chat|
+      {'participante_1_id' => pessoa_chat.participante_1_id, 'participante_2_id' => pessoa_chat.participante_2_id, 'chat_id' => pessoa_chat.chat_id, 'registration_id' => @pessoa.registration_id}
+    end
+
+    render :json => json
   end
 
 end
