@@ -5,7 +5,7 @@ class GcmController < ApplicationController
     gcm = GCM.new(gcm_api_key)
     registration_ids = [params[:regId]]
     #gcm.send_notification(registration_ids)
-    gcm.send_notification(registration_ids, data: {score: 'teste'})
+    gcm.send_notification(registration_ids, data: {regId: params[:regId], idChat: params[:idChat], idAmigo: params[:idAmigo], message: params[:message]})
   end
 
 end
