@@ -8,8 +8,6 @@ class PessoaController < ApplicationController
 
     @pessoa = Pessoa.find_by_uid(params[:uid])
 
-    registrationId = params[:registrationId]
-
     if @pessoa == nil
 
       @pessoa = Pessoa.new
@@ -17,7 +15,7 @@ class PessoaController < ApplicationController
       @pessoa.nome = params[:nome]
       @pessoa.save
     else
-      db.execute('update pessoas set registration_id = ' + registrationId + ' where uid = ' + @pessoa.uid)
+      db.execute("update pessoas set registration_id = '" + params[:registrationId] + "' where uid = '" + @pessoa.uid + "'")
     end
 
   end
