@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b61ad7a8-1956-43ec-925a-e5a417939a4a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/gcm_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/gcm_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="725399fb-5ecb-4880-b750-b9cca483b175" name="NAO_COMMITAR" comment="" />
     <ignored path="levarme_landing.iws" />
@@ -62,7 +64,7 @@
     <file path="$PROJECT_DIR$/../../Ruby/NaldoGenerator/app/views/layouts/application.html.erb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1391656623375" ignored="false" />
     <file path="$PROJECT_DIR$/../../Ruby/NaldoGenerator/app/views/home/index.html.erb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1391657608848" ignored="false" />
     <file path="/Gemfile" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392150101582" ignored="false" />
-    <file path="/gcm_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392172619035" ignored="false" />
+    <file path="/gcm_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392173258223" ignored="false" />
     <file path="/20140211235729_add_registration_id_to_pessoa.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392163074650" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,19 +130,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gcm_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="gcm_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/gcm_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="87" selection-start="323" selection-end="323" vertical-scroll-proportion="0.12527964">
+            <state line="8" column="40" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gcm.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/gcm-0.0.6/lib/gcm.rb">
+      <file leaf-file-name="application_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="4" selection-start="615" selection-end="698" vertical-scroll-proportion="0.0">
+            <state line="12" column="7" selection-start="292" selection-end="437" vertical-scroll-proportion="0.33333334">
               <folding />
             </state>
           </provider>
@@ -180,10 +182,10 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20140211235729_add_registration_id_to_pessoa.rb" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/pessoa.rb" />
         <option value="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/gcm_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       </list>
     </option>
   </component>
@@ -579,7 +581,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34565216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34565216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -696,23 +698,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="106" selection-start="856" selection-end="856" vertical-scroll-proportion="0.058076225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="16" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.4049217">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="292" selection-end="437" vertical-scroll-proportion="0.2147651">
           <folding />
         </state>
       </provider>
@@ -759,16 +747,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="106" selection-start="930" selection-end="930" vertical-scroll-proportion="0.11978222">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/gcm-0.0.6/lib/gcm.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="4" selection-start="615" selection-end="698" vertical-scroll-proportion="0.0">
+        <state line="15" column="6" selection-start="302" selection-end="302" vertical-scroll-proportion="0.027777778">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/gcm_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="87" selection-start="323" selection-end="323" vertical-scroll-proportion="0.12527964">
+        <state line="8" column="40" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="7" selection-start="292" selection-end="437" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
