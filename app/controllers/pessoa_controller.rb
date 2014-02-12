@@ -1,8 +1,14 @@
 class PessoaController < ApplicationController
 
+  def db
+    @db ||= ActiveRecord::Base.connection
+  end
+
   def create
 
     @pessoa = Pessoa.find_by_uid(params[:uid])
+
+    registrationId = params[:registrationId]
 
     if @pessoa == nil
 
@@ -10,7 +16,8 @@ class PessoaController < ApplicationController
       @pessoa.uid = params[:uid]
       @pessoa.nome = params[:nome]
       @pessoa.save
-
+    else
+      db.execute('update pessoas set registration_id = ' + registrationId + ' where uid = ' + @pessoa.uid)
     end
 
   end
