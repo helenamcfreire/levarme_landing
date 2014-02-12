@@ -78,7 +78,7 @@ class PessoaController < ApplicationController
 
     #render :json => @pessoa_chat
 
-    json = @pessoa_chat.all.collect do |pessoa_chat|
+    json = @pessoa_chat.collect do |pessoa_chat|
       {'participante_1_id' => pessoa_chat.participante_1_id, 'participante_2_id' => pessoa_chat.participante_2_id, 'chat_id' => pessoa_chat.chat_id, 'registration_id' => @pessoa.registration_id}
     end
 
