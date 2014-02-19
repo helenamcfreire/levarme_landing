@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b61ad7a8-1956-43ec-925a-e5a417939a4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/gcm_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/gcm_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="725399fb-5ecb-4880-b750-b9cca483b175" name="NAO_COMMITAR" comment="" />
     <ignored path="levarme_landing.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392169313447" ignored="false" />
+    <file path="/Dummy.txt" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392827730718" ignored="false" />
     <file path="/a.dummy" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1368378496421" ignored="false" />
     <file path="/registered_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1383525007930" ignored="false" />
     <file path="/application.css" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1385938446746" ignored="false" />
     <file path="/application.js" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1368378790978" ignored="false" />
     <file path="/pessoa.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1370807038696" ignored="false" />
-    <file path="/pessoa_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392166270027" ignored="false" />
+    <file path="/pessoa_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392827990202" ignored="false" />
     <file path="/20130609194146_create_pessoas.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1370807048270" ignored="false" />
     <file path="/pessoa_chat.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1389713038469" ignored="false" />
     <file path="/20130814172149_create_pessoa_chats.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1389576271788" ignored="false" />
@@ -65,6 +65,10 @@
     <file path="/Gemfile" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392150101582" ignored="false" />
     <file path="/gcm_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392174631008" ignored="false" />
     <file path="/20140211235729_add_registration_id_to_pessoa.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392163074650" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Ruby/partiu/db/migrate/20140212143806_add_patrocinado_to_evento.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392215942907" ignored="false" />
+    <file path="/20140212143806_add_patrocinado_to_evento.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392215941306" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Ruby/partiu/app/controllers/evento_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392216253158" ignored="false" />
+    <file path="/evento_controller.rb" changelist="b61ad7a8-1956-43ec-925a-e5a417939a4a" time="1392216236925" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,19 +133,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gcm_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/gcm_controller.rb">
+      <file leaf-file-name="pessoa_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/pessoa_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="153" selection-start="389" selection-end="389" vertical-scroll-proportion="0.12527964">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="67" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
+            <state line="81" column="47" selection-start="2084" selection-end="2084" vertical-scroll-proportion="0.6738392">
               <folding />
             </state>
           </provider>
@@ -182,9 +177,9 @@
         <option value="$PROJECT_DIR$/db/migrate/20140211235729_add_registration_id_to_pessoa.rb" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/app/models/pessoa.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/gcm_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/pessoa_controller.rb" />
       </list>
     </option>
   </component>
@@ -240,7 +235,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -252,6 +247,74 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="levarme_landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="levarme_landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="levarme_landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="levarme_landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="levarme_landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="levarme_landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="levarme_landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="levarme_landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="levarme_landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -259,14 +322,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="268" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="297" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="293" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="298" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="967" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="968" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="967" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="293" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="291" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -283,9 +346,9 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="org.jetbrains.plugins.ruby.i18n.inspection.quickfixes.I18nCreatePropertyDialog" value="en.yml" />
-    <property name="options.searchVisible" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -571,12 +634,11 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3445652" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2139808" sideWeight="0.6550976" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24439701" sideWeight="0.65401304" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.65401304" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -594,6 +656,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -664,30 +727,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/activerecord-3.2.9/lib/active_record/transactions.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="262" column="8" selection-start="11600" selection-end="11600" vertical-scroll-proportion="0.3325893" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="87" selection-start="924" selection-end="924" vertical-scroll-proportion="0.32142857">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/functional/pessoa_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="42" selection-start="133" selection-end="133" vertical-scroll-proportion="0.125">
-          <folding />
-        </state>
+        <state line="7" column="42" selection-start="133" selection-end="133" vertical-scroll-proportion="0.125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/registered/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -699,23 +746,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="16" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.4049217">
-          <folding />
-        </state>
+        <state line="86" column="16" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.4049217" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/pessoa_chat.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="71" selection-start="110" selection-end="117" vertical-scroll-proportion="0.035794184">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140211235729_add_registration_id_to_pessoa.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="96" selection-end="112" vertical-scroll-proportion="0.035794184">
-          <folding />
-        </state>
+        <state line="2" column="71" selection-start="110" selection-end="117" vertical-scroll-proportion="0.035794184" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
@@ -727,49 +763,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/pessoa.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="32" selection-start="67" selection-end="82" vertical-scroll-proportion="0.035794184">
-          <folding />
-        </state>
+        <state line="2" column="32" selection-start="67" selection-end="82" vertical-scroll-proportion="0.035794184" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130814172149_create_pessoa_chats.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="30" selection-start="77" selection-end="89" vertical-scroll-proportion="0.035794184">
+        <state line="2" column="30" selection-start="77" selection-end="89" vertical-scroll-proportion="0.035794184" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="106" selection-start="930" selection-end="930" vertical-scroll-proportion="0.11978222" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/gcm-0.0.6/lib/gcm.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="6" selection-start="302" selection-end="302" vertical-scroll-proportion="0.027777778" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/registered_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="33" selection-start="386" selection-end="386" vertical-scroll-proportion="0.42857143" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/gcm_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="400" selection-end="400" vertical-scroll-proportion="0.17857143" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140211235729_add_registration_id_to_pessoa.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="75" selection-end="121" vertical-scroll-proportion="0.035714287" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="67" selection-start="372" selection-end="372" vertical-scroll-proportion="0.25" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/core_ext/object/blank.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="6" selection-start="2139" selection-end="2139" vertical-scroll-proportion="0.53571427">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pessoa_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="24" selection-start="1974" selection-end="1974" vertical-scroll-proportion="0.7673378">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="106" selection-start="930" selection-end="930" vertical-scroll-proportion="0.11978222">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/gcm-0.0.6/lib/gcm.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="6" selection-start="302" selection-end="302" vertical-scroll-proportion="0.027777778">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="67" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/gcm_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="153" selection-start="389" selection-end="389" vertical-scroll-proportion="0.12527964">
+        <state line="81" column="47" selection-start="2084" selection-end="2084" vertical-scroll-proportion="0.6738392">
           <folding />
         </state>
       </provider>
